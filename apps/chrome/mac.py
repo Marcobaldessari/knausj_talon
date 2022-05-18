@@ -45,9 +45,9 @@ class BrowserActions:
     def go_blank():
         actions.key('cmd-n')
     def go_back():
-        actions.key('cmd-[')
+        actions.key('cmd-ğ')
     def go_forward():
-        actions.key('cmd-]')
+        actions.key('cmd-ü')
     def go_home():
         actions.key('cmd-shift-h')
     def open_private_window():
