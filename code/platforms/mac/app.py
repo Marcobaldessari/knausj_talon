@@ -13,11 +13,11 @@ class AppActions:
         #action(app.tab_detach):
         #  Move the current tab to a new window
     def tab_next():
-        actions.key('cmd-shift-]')
+        actions.key('cmd-alt-right')
     def tab_open():
         actions.key('cmd-t')
     def tab_previous():
-        actions.key('cmd-shift-[')
+        actions.key('cmd-alt-left')
     def tab_reopen():
         actions.key('cmd-shift-t')
     def window_close():
